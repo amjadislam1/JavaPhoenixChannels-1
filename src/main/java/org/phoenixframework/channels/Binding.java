@@ -1,5 +1,6 @@
 package org.phoenixframework.channels;
 
+
 class Binding {
     private final String event;
     private final IMessageCallback callback;
@@ -20,8 +21,8 @@ class Binding {
     @Override
     public String toString() {
         return "Binding{" +
-            "event='" + event + '\'' +
-            ", callback=" + callback +
-            '}';
+                "event='" + event + '\'' +
+                ", callback=" + callback +
+                '}';
     }
 }
